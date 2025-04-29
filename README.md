@@ -48,36 +48,33 @@ A full-stack web system to automate 4D Gaussian Splatting (4DGS) reconstruction 
 ```bash
 pip install fastapi uvicorn python-multipart aiofiles
 ```
-Start backend server
+### 🚀 Start backend server
 
+```bash
 uvicorn main:app --host 0.0.0.0 --port 8000
-Backend Endpoints
-
-POST /upload_and_process → Upload video + process pipeline (cut frames, COLMAP, ns-process, train, render)
-
-GET /get_video/{task_id} → Serve rendered mp4 video
-
-GET /download_pointcloud/{task_id} → Serve zipped point cloud data
+```
 
 ## ⚙️ Frontend Setup (React + TailwindCSS)
-Install dependencies
+### 📦 Install dependencies
 
+```bash
 npm install
-Start frontend
+```
+### 🚀 Start frontend
 
-
+```bash
 npm run dev
-Frontend Features
+```
+###💡Frontend Features
 
-Video file upload
+- 🎞️ Video file upload  
+- 📊 Real-time progress bar  
+- 📶 Stage status updates  
+  (uploading → frame extraction → COLMAP → training → rendering)  
+- ▶️ Rendered video preview  
+- 📁 One-click download for point cloud data
 
-Real-time progress bar
-
-Stage status updates (uploading, frame extraction, COLMAP, training, rendering)
-
-Rendered video preview
-
-One-click download for point cloud data
+---
 
 🎬 System Workflow
 
