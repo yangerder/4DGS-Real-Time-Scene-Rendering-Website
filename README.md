@@ -54,6 +54,8 @@ pip install fastapi uvicorn python-multipart aiofiles
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
+---
+
 ## ⚙️ Frontend Setup (React + TailwindCSS)
 ### 📦 Install dependencies
 
@@ -76,8 +78,8 @@ npm run dev
 
 ---
 
-🎬 System Workflow
-
+## 🎬 System Workflow
+```
 Upload Video
     ↓
 Extract Frames (ffmpeg)
@@ -91,22 +93,17 @@ Data Conversion (ns-process-data)
 Rendering (render.py)
     ↓
 Result Video Preview + Point Cloud Download
-📷 Demo (Website Preview)
-<!-- 放你網站截圖這邊，建議截圖放在 /images/ 資料夾 -->
-🎥 Upload and Progress
+```
 
-🎬 Result Video Playback
+---
 
-⬇️ Download Point Cloud
+## 📷 Demo (Website Preview)
 
-🧠 TODO (Optional Improvements)
-Add async task queue (e.g., Celery) for large video processing
+- 🎥 Upload and Progress
 
-Add login/authentication if needed for multi-user
+- 🎬 Result Video Playback
 
-Improve UI/UX with task list management
-
-Display point cloud visualization in browser (future extension)
+- ⬇️ Download Point Cloud
 
 📄 License
 This project is for research and educational purposes.
