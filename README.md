@@ -41,10 +41,13 @@ A full-stack web system to automate 4D Gaussian Splatting (4DGS) reconstruction 
 ---
 
 ## ⚙️ Backend Setup (FastAPI)
-Install dependencies
+
+### 🔧 Install dependencies
 (Assuming you already activated your 4DGaussians environment)
 
+```bash
 pip install fastapi uvicorn python-multipart aiofiles
+```
 Start backend server
 
 uvicorn main:app --host 0.0.0.0 --port 8000
