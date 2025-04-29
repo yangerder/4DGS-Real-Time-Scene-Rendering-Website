@@ -106,7 +106,7 @@ Result Video Preview + Point Cloud Download
   ![Uploading](images/uploading.png)  
 
 - Upload Completed
-  ![Upload Completed](images/uploadCompleted.png)
+  ![Upload Completed](images/upload_Completed.png)
   
 - Video Preview & Point Cloud Download 
   ![Video Preview and Download](images/video_download_preview_demo.png)
