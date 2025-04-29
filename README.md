@@ -17,7 +17,26 @@ A full-stack web system to automate 4D Gaussian Splatting (4DGS) reconstruction 
 
 ---
 
-<pre><code>## 📂 Project Structure ``` ├── backend/ │ ├── main.py # FastAPI server │ ├── utils.py # File save helpers │ ├── video_utils.py # Frame extraction (ffmpeg) │ ├── colmap_utils.py # COLMAP + ns-process + training + rendering │ ├── 4dgs_utils.py # (Optional) Future expansion for 4DGS tools │ └── requirements.txt # Backend dependencies ├── frontend/ │ ├── src/ │ │ ├── App.jsx # Main frontend upload page │ │ └── ... │ ├── public/ │ ├── vite.config.js │ ├── tailwind.config.js │ └── package.json # Frontend dependencies └── 4DGaussians/ # Your 4DGS original repo (train.py, render.py, etc.) ``` </code></pre>
+## 📂 Project Structure
+
+```
+├── backend/
+│   ├── main.py          # FastAPI server
+│   ├── utils.py         # File save helpers
+│   ├── video_utils.py   # Frame extraction (ffmpeg)
+│   ├── colmap_utils.py  # COLMAP + ns-process + training + rendering
+│   ├── 4dgs_utils.py    # (Optional) Future expansion for 4DGS tools
+│   └── requirements.txt # Backend dependencies
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx      # Main frontend upload page
+│   │   └── ...
+│   ├── public/
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   └── package.json     # Frontend dependencies
+└── 4DGaussians/          # Your 4DGS original repo (train.py, render.py, etc.)
+```
 
 ---
 
