@@ -100,12 +100,18 @@ Result Video Preview + Point Cloud Download
 ## Demo (Website Preview)
 
 - Before Upload 
-
-- Uploading (Progress)  
+  ![Before Upload](images/upload_progress_demo.png)
+  
+- Uploading (Progress)
+  ![Uploading](images/uploading.png)  
 
 - Upload Completed
-
+  ![Upload Completed](images/uploadCompleted.png)
+  
 - Video Preview & Point Cloud Download 
+  ![Video Preview and Download](images/video_download_preview_demo.png)
+ 
+---
 
 ## License
 This project is for research and educational purposes.
