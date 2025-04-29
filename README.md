@@ -99,16 +99,20 @@ Result Video Preview + Point Cloud Download
 
 ## Demo (Website Preview)
 
-- Before Upload 
+- Before Upload
+
   ![Before Upload](images/upload_progress_demo.png)
   
 - Uploading (Progress)
+
   ![Uploading](images/uploading.png)  
 
 - Upload Completed
+
   ![Upload Completed](images/upload_Completed.png)
   
-- Video Preview & Point Cloud Download 
+- Video Preview & Point Cloud Download
+
   ![Video Preview and Download](images/video_download_preview_demo.png)
  
 ---
