@@ -97,13 +97,15 @@ Result Video Preview + Point Cloud Download
 
 ---
 
-## 📷 Demo (Website Preview)
+## Demo (Website Preview)
 
-- 🎥 Upload and Progress
+- Before Upload 
 
-- 🎬 Result Video Playback
+- Uploading (Progress)  
 
-- ⬇️ Download Point Cloud
+- Upload Completed
 
-📄 License
+- Video Preview & Point Cloud Download 
+
+## License
 This project is for research and educational purposes.
