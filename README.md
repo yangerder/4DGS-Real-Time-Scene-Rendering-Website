@@ -19,8 +19,6 @@ A full-stack web system to automate 4D Gaussian Splatting (4DGS) reconstruction 
 
 ## 📂 Project Structure
 
-```plaintext
-/
 ├── backend/
 │   ├── main.py          # FastAPI server
 │   ├── utils.py         # File save helpers
@@ -37,19 +35,14 @@ A full-stack web system to automate 4D Gaussian Splatting (4DGS) reconstruction 
 │   ├── tailwind.config.js
 │   └── package.json     # Frontend dependencies
 └── 4DGaussians/          # Your 4DGS original repo (train.py, render.py, etc.)
-⚙️ Backend Setup (FastAPI)
+
+## ⚙️ Backend Setup (FastAPI)
 Install dependencies
 (Assuming you already activated your 4DGaussians environment)
 
-bash
-Copy
-Edit
 pip install fastapi uvicorn python-multipart aiofiles
 Start backend server
 
-bash
-Copy
-Edit
 uvicorn main:app --host 0.0.0.0 --port 8000
 Backend Endpoints
 
@@ -59,18 +52,13 @@ GET /get_video/{task_id} → Serve rendered mp4 video
 
 GET /download_pointcloud/{task_id} → Serve zipped point cloud data
 
-⚙️ Frontend Setup (React + TailwindCSS)
+## ⚙️ Frontend Setup (React + TailwindCSS)
 Install dependencies
 
-bash
-Copy
-Edit
 npm install
 Start frontend
 
-bash
-Copy
-Edit
+
 npm run dev
 Frontend Features
 
@@ -85,9 +73,7 @@ Rendered video preview
 One-click download for point cloud data
 
 🎬 System Workflow
-plaintext
-Copy
-Edit
+
 Upload Video
     ↓
 Extract Frames (ffmpeg)
