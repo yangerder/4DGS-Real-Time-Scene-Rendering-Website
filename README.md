@@ -2,6 +2,9 @@
 
 A full-stack web system to automate 4D Gaussian Splatting (4DGS) reconstruction and rendering from a single or multiple video uploads.
 
+
+The slides for this project can be found [here](https://www.canva.com/design/DAGpF6ztpmY/t4J5H6Ur8jHppo1Q_P79wg/edit).
+
 ---
 
 ## Features
@@ -36,6 +39,7 @@ A full-stack web system to automate 4D Gaussian Splatting (4DGS) reconstruction 
 │   ├── tailwind.config.js
 │   └── package.json     # Frontend dependencies
 └── 4DGaussians/          # Your 4DGS original repo (train.py, render.py, etc.)
+└── gaussian-splatting-lightning/    # Web Viewer for 4DGS
 ```
 
 ---
