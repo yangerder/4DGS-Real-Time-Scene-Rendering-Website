@@ -18,6 +18,10 @@ The slides for this project can be found [here](https://www.canva.com/design/DAG
 - Download point cloud files (`.pth`, `.ply`)
 - Easy-to-use frontend with progress visualization and result preview
 
+- Compute motion scores via optical flow to select training frames  
+- Use different mapping methods (Linear, Square, Sigmoid, Log) to accelerate training  
+- Achieve up to **1.4× speed-up** with motion-aware frame sampling  
+
 ---
 
 ## Project Structure
