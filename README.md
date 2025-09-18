@@ -1,13 +1,27 @@
-# 4D Gaussian Splatting Web System
+# 4D Gaussian Splatting With Motion-Aware Frame Selection
 
-A full-stack web system to automate 4D Gaussian Splatting (4DGS) reconstruction and rendering from a single or multiple video uploads.
-
+A system that preprocesses input images to accelerate 4DGS training.  
+We implement the pipeline based on [hustvl/4DGaussians](https://github.com/hustvl/4DGaussians), but our method can be extended to other 4DGS construction frameworks.  
+In addition, we provide a full-stack web system to automate 4D Gaussian Splatting (4DGS) reconstruction and rendering from single or multiple video uploads.
 
 The slides for this project can be found [here](https://www.canva.com/design/DAGpF6ztpmY/t4J5H6Ur8jHppo1Q_P79wg/edit).
 
 ---
 
-## Features
+## Acceleration Method
+
+- Compute motion scores via optical flow to select training frames  
+- Use different mapping methods (Linear, Square, Sigmoid, Log) for frame selection to accelerate training  
+- Achieve up to **1.4× speed-up** with motion-aware frame sampling  
+
+---
+
+## Experiments Result
+<img width="1002" height="533" alt="image" src="https://github.com/user-attachments/assets/0f6b7e79-550d-4b7a-a4c7-1362b45f1bc0" />
+
+---
+
+## Website Features
 
 - Upload video(s) via web interface
 - Automatically extract frames using ffmpeg
@@ -17,12 +31,9 @@ The slides for this project can be found [here](https://www.canva.com/design/DAG
 - Render output videos (`render.py`)
 - Download point cloud files (`.pth`, `.ply`)
 - Easy-to-use frontend with progress visualization and result preview
-
-- Compute motion scores via optical flow to select training frames  
-- Use different mapping methods (Linear, Square, Sigmoid, Log) to accelerate training  
-- Achieve up to **1.4× speed-up** with motion-aware frame sampling  
-
+  
 ---
+
 
 ## Project Structure
 
