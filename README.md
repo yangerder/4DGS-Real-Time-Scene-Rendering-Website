@@ -10,6 +10,8 @@ The slides for this project can be found [here](https://www.canva.com/design/DAG
 
 ## Acceleration Method
 
+<img width="1658" height="262" alt="image" src="https://github.com/user-attachments/assets/a537287e-0701-4635-b20d-4a4d0e5f8526" />
+
 - Compute motion scores via optical flow to select training frames  
 - Use different mapping methods (Linear, Square, Sigmoid, Log) for frame selection to accelerate training  
 - Achieve up to **1.4× speed-up** with motion-aware frame sampling  
